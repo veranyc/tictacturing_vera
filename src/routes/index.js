@@ -2,7 +2,7 @@ import React from 'react'
 import {Route, IndexRoute} from 'react-router'
 import Template from '../Containers/template'
 import Profile from '../Containers/profile'
-import Home from '../Containers/home'
+import TicTacToe from '../Containers/TicTacToe'
 
 
 
@@ -13,7 +13,7 @@ const createRoutes = () => {
       component={Template}
     >
       <IndexRoute
-        component={Home}
+        component={TicTacToe}
       />
       <Route
         path={'/profile'}
