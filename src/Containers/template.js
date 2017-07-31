@@ -13,7 +13,7 @@ class Template extends Component {
       <div>
         <NavDrawer />
         <Header>
-          TicTacTuring
+          TicTacVera
         </Header>
         <Main>
           {this.props.children}
